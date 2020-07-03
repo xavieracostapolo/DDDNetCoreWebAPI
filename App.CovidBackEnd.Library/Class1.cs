@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace App.CovidBackEnd.Infraestructure.ExternalService
+namespace App.CovidBackEnd.Library
 {
     public class Class1
     {
