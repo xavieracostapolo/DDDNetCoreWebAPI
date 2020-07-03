@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.CovidBackEnd.WebAPI", "App.CovidBackEnd.WebAPI\App.CovidBackEnd.WebAPI.csproj", "{DE14AEE8-6D1F-46D3-8DF7-56729287B3FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{14550F72-9DAA-493F-BCDD-BD6E93701032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Distribution", "2. Distribution", "{05AA5150-C19C-457A-8BA2-6D6BCFB195F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Application", "3. Application", "{5FBA8E28-E8BF-4E03-9ADF-5DE27DE3633A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Domain", "4. Domain", "{996D11A8-6D30-41E4-A00B-7AE3D7746377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Infraestructure", "5. Infraestructure", "{584D1270-1CE5-4762-AB64-E1C70CF47FD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

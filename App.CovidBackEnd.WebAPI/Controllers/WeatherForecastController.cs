@@ -9,7 +9,7 @@ namespace App.CovidBackEnd.WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController : Controller
     {
         private static readonly string[] Summaries = new[]
         {
@@ -26,6 +26,7 @@ namespace App.CovidBackEnd.WebAPI.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            _logger.LogError("HOLA ERROR....");
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
