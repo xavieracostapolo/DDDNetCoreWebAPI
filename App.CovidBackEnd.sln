@@ -24,4 +24,7 @@ Global
 		{DE14AEE8-6D1F-46D3-8DF7-56729287B3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE14AEE8-6D1F-46D3-8DF7-56729287B3FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE14AEE8-6D1F-46D3-8DF7-56729287B3FF} = {14550F72-9DAA-493F-BCDD-BD6E93701032}
+	EndGlobalSection
 EndGlobal

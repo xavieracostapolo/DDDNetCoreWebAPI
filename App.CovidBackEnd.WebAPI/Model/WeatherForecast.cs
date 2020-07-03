@@ -1,6 +1,6 @@
 using System;
 
-namespace App.CovidBackEnd.WebAPI
+namespace App.CovidBackEnd.WebAPI.Model
 {
     public class WeatherForecast
     {
